@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--设置android:clickable，使得普通按钮不能点击-->
+    <!--设置android:layout_margin，调整普通按钮位置-->
+    <Button
+        android:id="@+id/button_layout_buttondemo_noramlbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_cn_normalbtn"
+        android:textColor="#00ffff"
+        />
+    <!--圆形按钮,具体设置在drawable中的round_back_ground-->
+    <Button
+        android:id="@+id/button_layout_buttondemo_roundbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_cn_roundbtn"
+        android:layout_centerInParent="true"
+        android:background="@drawable/round_back_ground"
+        />
+    <!--带图形的按钮,利用android:drawableLeft设置图片在按钮左方-->
+    <Button
+        android:id="@+id/button_layout_buttondemo_picbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_cn_picbtn"
+        android:layout_below="@id/button_layout_buttondemo_roundbtn"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:background="#ffff00"
+        />
+</RelativeLayout>

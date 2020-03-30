@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!--android:spinnerMode="dropdown"将会以下拉列表形式显示-->
+        <!--spinner数据的数组在xueli.xml文件中-->
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/xueli"
+            android:spinnerMode="dropdown"
+            android:popupBackground="@color/colorAccent"
+            android:dropDownWidth="120dp"
+            />
+        <!--android:spinnerMode="dialog"将会以弹窗的形式显示-->
+        <!--spinner数据的数组在lang.xml文件中-->
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/lang"
+            android:spinnerMode="dialog"
+            android:prompt="@string/string_cn_popcodelan"
+            />
+    </LinearLayout>
+</LinearLayout>

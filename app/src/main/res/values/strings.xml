@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">WidgetDemo</string>
+    <string name="string_en_textviewdemo"> TextView and EditText Demo</string>
+    <string name="string_en_buttondemo"> Button Demo</string>
+    <string name="string_en_radiobuttondemo"> RadioButton and CheckBox Demo</string>
+    <string name="string_en_imageviewdemo"> ImageView Demo</string>
+    <string name="string_en_spinnerdemo"> Spinner Demo</string>
+    <string name="string_cn_users">用户名：</string>
+    <string name="string_cn_plsinputusers">请输入用户名：</string>
+    <string name="string_cn_setpswd">设置密码：</string>
+    <string name="string_cn_plsinputpswd">请输入用户密码：</string>
+    <string name="string_cn_repeatpswd">确认密码：</string>
+    <string name="string_cn_plsrepeatpswd">请再次输入密码：</string>
+    <string name="string_cn_mobilephonenum">手机号码：</string>
+    <string name="string_cn_plsinputmobilephonenum">请输入手机号码：</string>
+    <string name="string_cn_downloadwebsite">官方下载文件的网址是：</string>
+    <string name="string_cn_normalbtn">普通按钮</string>
+    <string name="string_cn_roundbtn">圆形按钮</string>
+    <string name="string_cn_picbtn">带图形的按钮</string>
+    <string name="string_cn_malerofemale">您的性别是：</string>
+    <string name="string_cn_male">男</string>
+    <string name="string_cn_female">女</string>
+    <string name="string_cn_rememberpswd">记住密码</string>
+    <string name="string_en_url">www.baidu.com</string>
+    <string name="string_cn_imagedefault">图片自适应</string>
+    <string name="string_cn_xy">图片宽设置100dp，高为50dp</string>
+    <string name="string_cn_matrix_30">设置scaleType为matrix,从ImageView的左上角开始绘制，Imageview宽高均设为30dp，原图大于ImageView，那么多余的部分将被剪裁掉</string>
+    <string name="string_cn_martix">设置scaleType为matrix，从ImageView的左上角开始绘制,原图小于ImageView，那么对原图不做任何处理</string>
+    <string name="string_cn_fitxy">设置scaleType为fitXY，填充整个ImageView，不会按照原图的比例来缩放</string>
+    <string name="string_cn_fitstart">设置scaleType为fitStart，将图片按比例缩放至View的宽度或者高度（取宽和高的最小值），然后居左或者居上显示</string>
+    <string name="string_cn_fitcenter">设置scaleType为fitCenter，将图片按比例缩放至View的宽度或者高度（取宽和高的最小值），然后居中显示</string>
+    <string name="string_cn_fitend">设置scaleType为fitEnd，将图片按比例缩放至View的宽度或者高度（取宽和高的最小值），然后居右或者居下显示</string>
+    <string name="string_cn_center">设置scaleType为center,将原图按照原来的大小居中显示，如果原图的大小超过了ImageView的大小，那么剪裁掉多余部分，只显示中间一部分图像</string>
+    <string name="string_cn_centercrop">设置scaleType为centerCrop,等比例放大原图直到填满iamgeView为止，同时将多余的宽或者高剪裁掉</string>
+    <string name="string_cn_centerinside">设置scaleType为centerInside,目标是将原图完整的显示出来，故按比例缩放原图，使得ImageView可以将原图完整显示</string>
+    <string name="string_cn_popcodelan">主流编程语言</string>
+</resources>
